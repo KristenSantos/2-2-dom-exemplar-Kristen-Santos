@@ -71,6 +71,9 @@ Mimic this pattern when you create your `index.js` file from scratch! If you ope
 ## Questions
 
 ### Question 1: getMainHeadingText - modify.js (READ)
+
+For these first two functions, make sure that your `modify.html` file is open in the browser. Then, inspect the page and look at the **Console** tab. There, you should see the console log output of your first two functions
+
 In the function `getMainHeadingText`, use the `querySelector` to grab the `H1` by it's `id`. Then, console.log the text of the element.
 
 **Helpful Resources**:
@@ -86,6 +89,9 @@ In the function `getAllMainText` you'll need to grab *all* the elements with the
 (For this one, look at the **other cases section**, as you can see there are a lot of possible solutions!)
 
 ### Question 3: setSubtitleText - modify.js (UPDATE)
+
+The remaining questions will have you directly modifying the content of the `modify.html` page. You should see the content on the page changing as you write your JavaScript code!
+
 Now we're getting into grabbing *existing* elements, and updating them in some way. For this one, use the `setSubtitleText` function, and grab the subtitle `h2` element somehow (maybe `id` or the tag name?) and then update it's empty text content to say:
 
 ```
